@@ -8,5 +8,11 @@ public class Driver {
 		int z = scanner.nextInt();
 		Numbers<Integer> numbers = new Numbers<>(x, y, z);
 		System.out.println(numbers.compareThree());
+		System.out.println("Enter three float numbers: ");
+		float a = scanner.nextFloat();
+		float b = scanner.nextFloat();
+		float c = scanner.nextFloat();
+		Numbers<Float> floatNumbers = new Numbers<>(a, b, c);
+		System.out.println(floatNumbers.compareThree());
 	}
 }
